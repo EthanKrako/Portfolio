@@ -1,0 +1,56 @@
+:root {
+    --main-bg: #14120B;
+    --subtle-bg: #1B180F;
+    --element-bg: #2D2305;
+    --element-hover-bg: #362B00;
+    --active-element-bg: #433500;
+    --separator-color: #524202;
+    --border-color: #665417;
+    --border-hover-color: #836A21;
+    --solid-bg: #FFE629;
+    --hover-solid-bg: #FFFF57;
+    --low-contrast-text: #F5E147;
+    --high-contrast-text: #F6EEB4;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+    background-color: var(--main-bg);
+    color: var(--high-contrast-text);
+}
+
+.header {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    padding: 0 5vw;
+    border-bottom: var(--separator-color) solid 1px;
+}
+
+.header-name {
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.pill-button {
+    color: var(--high-contrast-text);
+    background-color: var(--element-bg);
+    border: none;
+    border-radius: 10em;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pill-button:hover {
+    background-color: var(--element-hover-bg);
+}
+
+@media (min-width: 1600px) {
+    body {
+        font-size: 1vw;
+    }
+}
