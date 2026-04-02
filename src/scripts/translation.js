@@ -4,12 +4,12 @@ const languageButton = document.querySelector('#language-button');
 
 async function loadLanguage(lang) {
     try {
-        const translationDictionary = await import(`./translations/${lang}.js`);
+        const translationDictionary = await import(`../translations/${lang}.js`);
         return translationDictionary.default;
     } catch (error) {
         console.error(`Error loading language file for ${lang}:`, error);
         
-        const fallbackDictionary = await import(`./translations/en.js`);
+        const fallbackDictionary = await import(`../translations/en.js`);
         return fallbackDictionary.default;
     }
 }
