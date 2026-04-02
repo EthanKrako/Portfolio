@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     margin: 0;
     font-size: 16px;
@@ -6,6 +7,25 @@ body {
     color: var(--high-contrast-text);
 }
 
+h1 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 > strong {
+    color: var(--solid-bg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 1em;
+    gap: 6em;
+}
+
+
+/* Header styles */
 .header {
     height: 3em;
     display: flex;
@@ -35,6 +55,79 @@ body {
     background-color: var(--element-hover-bg);
 }
 
+
+/* Hero styles */
+.hero {
+    display: flex;
+    align-items: center;
+    width: 35em;
+    gap: 1em;
+    padding-top: 5em;
+}
+
+.hero-subtitle {
+    text-align: justify;
+}
+
+.profile-picture {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin-left: 2em;
+    object-fit: contain;
+    box-shadow: 0 0 1em var(--separator-color);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    text-align: end;
+}
+
+
+/* Projects styles */
+.content-container {
+    width: 100%;
+    max-width: 60em;
+}
+
+.project-title {
+    padding-bottom: 0.5em;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+    text-align: center;
+    color: var(--solid-bg);
+    background-color: var(--element-bg);
+    cursor: pointer;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.tabs label:first-child {
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+}
+
+.tabs input[type="radio"]:checked + label {
+    color: var(--low-contrast-text);
+    text-shadow: 0 0 0.2em var(--solid-bg);
+}
+
+
+/* Responsive styles */
 @media (min-width: 1600px) {
     body {
         font-size: 1vw;

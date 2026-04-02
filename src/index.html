@@ -15,11 +15,24 @@
     </div>
     <main>
         <div class="hero">
-            <h1 data-text="portfolio-title"></h1>
+            <div class="text-container">
+                <h1 data-text="hero-title"></h1>
+                <div class="hero-subtitle" data-text="hero-subtitle"></div>
+                <div class="hero-subtitle" data-text="hero-subtitle-2"></div>
+            </div>
+            <img class="profile-picture" src="./images/profile-picture.png" data-alt="profile picture">
         </div>
 
         <div class="content-container">
-
+            <h1 class="project-title" data-text="project-title"></h1>
+            <div class="projects-container">
+                <div class="tabs">
+                    <input type="radio" id="radio-pro" name="project-tabs" checked>
+                    <label for="radio-pro" data-text="project-pro"></label>
+                    <input type="radio" id="radio-perso" name="project-tabs">
+                    <label for="radio-perso" data-text="project-perso"></label>
+                </div>
+            </div>
         </div>
     </main>
 </body>

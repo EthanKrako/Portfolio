@@ -19,7 +19,12 @@ async function setLanguage(lang) {
 
     document.querySelectorAll("[data-text]").forEach(textElement => {
         const key = textElement.dataset.text;
-        textElement.textContent = translationDictionary[key];
+        textElement.innerHTML = translationDictionary[key];
+    });
+
+    document.querySelectorAll("[data-alt]").forEach(altElement => {
+        const key = altElement.dataset.alt;
+        altElement.alt = translationDictionary[key];
     });
 
     localStorage.setItem("lang", lang);
