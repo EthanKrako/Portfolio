@@ -1,18 +1,3 @@
-:root {
-    --main-bg: #14120B;
-    --subtle-bg: #1B180F;
-    --element-bg: #2D2305;
-    --element-hover-bg: #362B00;
-    --active-element-bg: #433500;
-    --separator-color: #524202;
-    --border-color: #665417;
-    --border-hover-color: #836A21;
-    --solid-bg: #FFE629;
-    --hover-solid-bg: #FFFF57;
-    --low-contrast-text: #F5E147;
-    --high-contrast-text: #F6EEB4;
-}
-
 body {
     margin: 0;
     font-size: 16px;
@@ -41,6 +26,7 @@ body {
     border: none;
     border-radius: 10em;
     padding: 0.5em 1.5em;
+    font-size: 0.8em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
