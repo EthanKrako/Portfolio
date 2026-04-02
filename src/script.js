@@ -38,4 +38,9 @@ function getLang() {
     return navigator.language.split('-')[0];
 }
 
+function initializeLanguageButton() {
+    languageButton.addEventListener('click', cycleLanguage);
+}
+
 setLanguage(getLang());
+initializeLanguageButton();
