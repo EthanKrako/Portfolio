@@ -126,6 +126,14 @@ main {
     text-shadow: 0 0 0.2em var(--solid-bg);
 }
 
+.project-lists {
+    position: relative;
+}
+
+.list {
+    position: absolute;
+}
+
 
 /* Responsive styles */
 @media (min-width: 1600px) {
