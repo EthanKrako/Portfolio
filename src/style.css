@@ -107,6 +107,7 @@ main {
 
 .tabs label {
     display: block;
+    position: relative;
     width: 100%;
     padding: 0.5em 0;
     text-align: center;
@@ -116,9 +117,21 @@ main {
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-.tabs label:first-child {
-    border-top-left-radius: 10em;
-    border-bottom-left-radius: 10em;
+.tabs label:not(:first-of-type)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12.5%;
+    width: 1px;
+    height: 75%;
+    background-color: var(--separator-color);
+} 
+
+.tabs label:first-of-type {
+    border-top-left-radius: 0.5em;
+}
+.tabs label:last-of-type {
+    border-top-right-radius: 0.5em;
 }
 
 .tabs input[type="radio"]:checked + label {
@@ -128,10 +141,16 @@ main {
 
 .project-lists {
     position: relative;
+    overflow: hidden;
+    transition: height 0.3s ease;
 }
 
 .list {
-    position: absolute;
+    display: none;
+}
+
+.list.is-active {
+    display: block;
 }
 
 
