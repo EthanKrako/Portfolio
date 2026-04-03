@@ -20,7 +20,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 1em;
+    padding: 0px 1em 1em 1em;
     gap: 6em;
 }
 
@@ -141,16 +141,25 @@ main {
 
 .project-lists {
     position: relative;
+    background-color: var(--element-bg);
     overflow: hidden;
-    transition: height 0.3s ease;
+    transition: height 1s ease-out;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
-.list {
-    display: none;
+.project-lists .list {
+    height: fit-content;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
 }
 
-.list.is-active {
-    display: block;
+.project-lists .list.is-active {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 
