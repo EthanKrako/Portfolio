@@ -23,7 +23,7 @@ function resizeListContainer(list) {
     listContainer.style.height = (listHeightPx / fontSizePx) + "em";
 }
 
-export function setupRadioEventListeners() {
+export function setupProjectTabs() {
     // Initial load
     updateActiveProjectTab();
 

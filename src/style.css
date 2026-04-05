@@ -87,7 +87,7 @@ main {
 }
 
 
-/* Projects styles */
+/* Tab system styles */
 .content-container {
     width: 100%;
     max-width: 60em;
@@ -172,6 +172,25 @@ main {
 .project-lists .list.is-active {
     opacity: 1;
     pointer-events: auto;
+}
+
+
+/* Projects styles */
+.project-container button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.fullscreen-image {
+    position: fixed;
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.fullscreen-image::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
