@@ -7,4 +7,9 @@ export default {
     "project-title": "Projects",
     "project-pro": "Pro",
     "project-perso": "Perso",
+    "website-link": "See website ↪",
+    
+    // Projects
+    "pro-title-1": "Project Title",
+    "pro-desc-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 }
