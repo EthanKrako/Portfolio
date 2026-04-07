@@ -252,3 +252,37 @@ a:hover {
         font-size: 1vw;
     }
 }
+
+@media (max-width: 800px) {
+
+    .project-container {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+
+    .preview-container {
+        width: 100%;
+    }
+
+    .project-lists .list {
+        gap: 4em;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 2em;
+    }
+
+    .text-container {
+        text-align: start;
+    }
+
+    .profile-picture {
+        width: 15em;
+        height: 15em;
+        margin: 0;
+    }
+}
