@@ -26,6 +26,6 @@ export default {
     "perso-title-2": "Collaborative Text Editor",
     "perso-desc-2": "A real-time collaborative text editor built with Angular and NestJS. The goal of this project was purely to play with WebSockets and real-time synchronization, using Angular's RxJS, Socket.IO and Yjs to achieve seamless collaboration, while still being able to save and load documents from the database.",
 
-    "perso-title-3": "This Portfolio",
+    "perso-title-3": "Portfolio",
     "perso-desc-3": "The portfolio website you are currently browsing. This is a simple site built with vanilla JavaScript, HTML and CSS, to showcase my projects and skills.",
 }
