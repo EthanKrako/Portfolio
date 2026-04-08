@@ -9,6 +9,7 @@ export default {
     "project-perso": "Perso",
     "website-link": "See website ↪",
     "github-link": "GitHub link ↪",
+    "experience-title": "Experience",
     
     // Projects
     "pro-title-1": "Odyssea",
@@ -28,4 +29,20 @@ export default {
 
     "perso-title-3": "Portfolio",
     "perso-desc-3": "The portfolio website you are currently browsing. This is a simple site built with vanilla JavaScript, HTML and CSS, to showcase my projects and skills.",
+
+    "ws-cdd-title": "Temporary contract - Web Strategies",
+    "ws-cdd-desc": "Following the internship, we decided to extend our collaboration for an additional 4 months. Thanks to the experience gained, I had the opportunity to work on more complex tasks, including the direct resolution of client tickets and the deployment of new projects to production.",
+    "ws-cdd-duration": "September 2025 - December 2025",
+
+    "master-graduation-title": "Master's degree graduation",
+    "master-graduation-desc": "My master's program gave me the opportunity to explore more advanced programming concepts. It's through courses on design patterns, software architecture, and programming techniques (first-class citizenship, purity, etc.) that I discovered my passion for code optimization and clean code in all its forms.",
+    "master-graduation-date": "September 2025",
+
+    "ws-internship-title": "Internship - Web Strategies",
+    "ws-internship-desc": "During my graduation internship, I had the opportunity to work as a full stack developer on a wide variety of projects within the agency. This experience allowed me to master the challenges related to performance, security, and accessibility, while fully integrating into the developers' team.",
+    "ws-internship-duration": "April 2025 - August 2025",
+
+    "isp-internship-title": "Internship - ISP Aquitaine",
+    "isp-internship-desc": "My first professional experience as a developer. I worked on an internal ERP in a WAMP environment. The bulk of the work involved understanding the company's needs and manipulating, formatting, displaying, and storing the ERP's data.",
+    "isp-internship-duration": "April 2022 - June 2022",
 }

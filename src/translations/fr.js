@@ -9,6 +9,7 @@ export default {
     "project-perso": "Perso",
     "website-link": "Voir le site ↪",
     "github-link": "Lien GitHub ↪",
+    "experience-title": "Expérience",
 
     // Projets
     "pro-title-1": "Odyssea",
@@ -28,4 +29,20 @@ export default {
 
     "perso-title-3": "Portfolio",
     "perso-desc-3": "Le porfolio que vous consultez actuellement. J'ai voulu créer un site simple en JavaScript, HTML et CSS vanilla, pour mettre en avant mes différents projets.",
+
+    "ws-cdd-title": "CDD - Web Strategies",
+    "ws-cdd-desc": "Suite au stage, nous avons décidé de continuer à collaborer pour 4 mois supplémentaires. Grâce à l'expérience acquise, j'ai eu l'occasion de travailler sur des tâches plus complexes telles que la résolution directe de tickets clients ou la mise en production de nouveaux projets.",
+    "ws-cdd-duration": "Septembre 2025 - Décembre 2025",
+
+    "master-graduation-title": "Obtention du master Informatique",
+    "master-graduation-desc": "Le master m'a permis d'explorer des concepts plus avancés dans la programmation. C'est en suivant des cours autour des patrons de conception, de l'architecture logicielle et des techniques de programmation (premières classes, pureté, etc.) que je me suis découvert une passion pour l'optimisation et la propreté du code sous toutes ses formes.",
+    "master-graduation-date": "Septembre 2025",
+
+    "ws-internship-title": "Stage - Web Strategies",
+    "ws-internship-desc": "Pour mon stage de fin d'études, j'ai eu l'occasion d'évoluer en tant que développeur full stack sur une grande variété de projets au sein de l'agence. Cette expérience m'a permis de maîtriser les défis liés à la performance, la sécurité et l'accessibilité, tout en m'intégrant pleinement à l'équipe de développeurs.",
+    "ws-internship-duration": "Avril 2025 - Aout 2025",
+
+    "isp-internship-title": "Stage - ISP Aquitaine",
+    "isp-internship-desc": "Ma première expérience professionnelle en tant que développeur. J'ai travaillé sur un ERP interne dans un environnement WAMP. L'essentiel du travail consistait à comprendre les besoins de l'entreprise et manipuler, formater, afficher et stocker les données de l'ERP.",
+    "isp-internship-duration": "Avril 2022 - Juin 2022",
 }
