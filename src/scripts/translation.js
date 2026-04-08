@@ -33,6 +33,7 @@ export async function setLanguage(lang) {
     });
 
     localStorage.setItem("lang", lang);
+    currentLanguageIndex = existingLanguages.indexOf(lang) !== -1 ? existingLanguages.indexOf(lang) : 0;
 }
 
 function cycleLanguage() {
