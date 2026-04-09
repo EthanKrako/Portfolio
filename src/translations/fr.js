@@ -64,7 +64,9 @@ export default {
 
     "english": "Anglais",
     "english-level": "Courant",
+    "english-description": "C1-C2",
 
     "japanese": "Japonais",
     "japanese-level": "Conversation basique",
+    "japanese-description": "N4",
 }
