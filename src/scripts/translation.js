@@ -42,6 +42,10 @@ function cycleLanguage() {
 }
 
 export function getLang() {
+    if (localStorage.getItem("lang")) {
+        return localStorage.getItem("lang");
+    }
+
     if (navigator.languages !== undefined) {
         return navigator.languages[0].split('-')[0];
     }
