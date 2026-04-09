@@ -1,0 +1,131 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+    background-color: var(--main-bg);
+    color: var(--high-contrast-text);
+}
+
+h1, h2, h3, p, ul {
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 > strong {
+    color: var(--solid-bg);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 1em 1em 1em;
+    gap: 4em;
+}
+
+a {
+    width: fit-content;
+    text-decoration: none;
+    color: var(--high-contrast-text);
+}
+
+
+/* Header styles */
+.header {
+    position: fixed;
+    display: flex;
+    height: 3em;
+    width: 90%;
+    align-items: center;
+    padding: 0 5vw;
+    border-bottom: var(--separator-color) solid 1px;
+    background-color: var(--main-bg);
+    z-index: 10;
+}
+
+.header-name {
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.language-button-container {
+    padding-left: 2em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pill-button {
+    color: var(--high-contrast-text);
+    background-color: var(--element-bg);
+    border: none;
+    border-radius: 10em;
+    padding: 0.5em 1.5em;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pill-button:hover {
+    background-color: var(--element-hover-bg);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.header-nav div {
+    position: relative;
+}
+
+.header-nav div::after {
+    content: "";
+    position: absolute;
+    bottom: -0.9em;
+    display: block;
+    height: 0.1em;
+    width: 100%;
+    background-color: var(--solid-bg);
+    
+}
+
+.header-nav a {
+    color: var(--hover-solid-bg);
+    transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: var(--high-contrast-text);
+    text-shadow: 0 0 1em var(--solid-bg);
+}
+
+
+
+/* Content */
+.content-container {
+    width: 100%;
+    max-width: 60em;
+}
+
+.section-title {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+/* Responsive */
+@media (min-width: 1600px) {
+    body {
+        font-size: 1vw;
+    }
+}

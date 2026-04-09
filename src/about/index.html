@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-text="about-me">About me</title>
+    <link rel="stylesheet" href="../color-schemes/mauve.css">
+    <link rel="stylesheet" href="../global-style.css">
+    <link rel="stylesheet" href="./about-me.css">
+    <script type="module" src="./about-me.js" defer></script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-name">Ethan Krakowski</div>
+        <nav class="header-nav">
+            <a href="../" data-text="my-work"></a>
+            <div data-text="about-me"></div>
+        </nav>
+        <div class="language-button-container">
+            <button id="language-button" class="pill-button" data-text="lang-abv"></button>
+        </div>
+    </div>
+
+    <main>
+        <div class="content-container">
+            <h1 data-text="about-me"></h1>
+            <div class="about-me-desc-container">
+                <p data-text="about-me-desc-1"></p>
+                <p data-text="about-me-desc-2"></p>
+                <p data-text="about-me-desc-3"></p>
+            </div>
+            <h2 data-text="languages"></h2>
+            <div class="languages-container">
+                <div class="language-card france">
+                    <div class="language-card-inner">
+                        <div class="front">
+                            <img src="../images/french-flag.svg" alt="french flag">
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <div class="language-name" data-text="french"></div>
+                                <div class="language-level" data-text="french-level"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="language-card english">
+                    <div class="language-card-inner">
+                        <div class="front">
+                            <img src="../images/english-flag.svg" alt="english flag">
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <div class="language-name" data-text="english"></div>
+                                <div class="language-level" data-text="english-level"></div>
+                                <small data-text="english-description"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="language-card japanese">
+                    <div class="language-card-inner">
+                        <div class="front">
+                            <img src="../images/japanese-flag.svg" alt="japanese flag">
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <div class="language-name" data-text="japanese"></div>
+                                <div class="language-level" data-text="japanese-level"></div>
+                                <small data-text="japanese-description"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

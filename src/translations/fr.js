@@ -10,6 +10,12 @@ export default {
     "website-link": "Voir le site ↪",
     "github-link": "Lien GitHub ↪",
     "experience-title": "Expérience",
+    "my-work": "Mon travail",
+    "about-me": "À propos de moi",
+    "languages": "Langues",
+
+
+    // Text blocks
 
     // Projets
     "pro-title-1": "Odyssea",
@@ -45,4 +51,20 @@ export default {
     "isp-internship-title": "Stage - ISP Aquitaine",
     "isp-internship-desc": "Ma première expérience professionnelle en tant que développeur. J'ai travaillé sur un ERP interne dans un environnement WAMP. L'essentiel du travail consistait à comprendre les besoins de l'entreprise et manipuler, formater, afficher et stocker les données de l'ERP.",
     "isp-internship-duration": "Avril 2022 - Juin 2022",
+
+
+    // About me
+    "about-me-desc-1": "Je suis un développeur habitant proche de Bordeaux, en France.",
+    "about-me-desc-2": "J'ai toujours aimé l'apprentissage sous toutes ses formes, comme en témoigne mon attrait pour l'informatique, mais également mes nombreux autres passe-temps comme les langues étrangères, le sport et les jeux vidéo.",
+    "about-me-desc-3": "J'aime rencontrer du monde, apprendre aux autres et des autres, et j'essaie le plus possible de partager ma bonne humeur et ma motivation avec les gens qui m'entourent. J'aime être challenger et profiter de ces situations pour apprendre et m'améliorer.",
+
+    // Language levels
+    "french": "Français",
+    "french-level": "Natif",
+
+    "english": "Anglais",
+    "english-level": "Courant",
+
+    "japanese": "Japonais",
+    "japanese-level": "Conversation basique",
 }

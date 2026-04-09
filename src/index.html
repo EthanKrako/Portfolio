@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan Krakowski</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./color-schemes/mauve.css">
-    <script type="module" src="./script.js" defer></script>
+    <link rel="stylesheet" href="./global-style.css">
+    <link rel="stylesheet" href="./my-work.css">
+    <script type="module" src="./my-work.js" defer></script>
 </head>
 
 
@@ -14,7 +15,13 @@
 <body>
     <div class="header">
         <div class="header-name">Ethan Krakowski</div>
-        <button id="language-button" class="pill-button" data-text="lang-abv"></button>
+        <nav class="header-nav">
+            <div data-text="my-work"></div>
+            <a href="./about" data-text="about-me"></a>
+        </nav>
+        <div class="language-button-container">
+            <button id="language-button" class="pill-button" data-text="lang-abv"></button>
+        </div>
     </div>
 
 

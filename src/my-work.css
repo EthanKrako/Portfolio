@@ -1,92 +1,10 @@
-/* Global styles */
-body {
-    margin: 0;
-    font-size: 16px;
-    font-family: system-ui, sans-serif;
-    background-color: var(--main-bg);
-    color: var(--high-contrast-text);
-}
-
-h1, h2, h3, p, ul {
-    font-weight: normal;
-    margin: 0;
-}
-
-h1 > strong {
-    color: var(--solid-bg);
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 1em 1em 1em;
-    gap: 4em;
-}
-
-a {
-    width: fit-content;
-    color: var(--high-contrast-text);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: var(--solid-bg);
-}
-
-
-/* Header styles */
-.header {
-    position: fixed;
-    display: flex;
-    height: 3em;
-    width: 90%;
-    align-items: center;
-    padding: 0 5vw;
-    border-bottom: var(--separator-color) solid 1px;
-    background-color: var(--main-bg);
-    z-index: 10;
-}
-
-.header-name {
-    flex: 1;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.pill-button {
-    color: var(--high-contrast-text);
-    background-color: var(--element-bg);
-    border: none;
-    border-radius: 10em;
-    padding: 0.5em 1.5em;
-    font-size: 0.8em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.pill-button:hover {
-    background-color: var(--element-hover-bg);
-}
-
-
 /* Hero styles */
 .hero {
     display: flex;
     align-items: center;
     width: 35em;
     gap: 1em;
-    padding-top: 8em;
+    padding-top: 5em;
 }
 
 .hero-subtitle {
@@ -113,16 +31,6 @@ a:hover {
 
 
 /* Tab system styles */
-.content-container {
-    width: 100%;
-    max-width: 60em;
-}
-
-.section-title {
-    padding-top: 2em;
-    padding-bottom: 0.5em;
-}
-
 .section-title:nth-of-type(even) {
     text-align: end;
 }
@@ -232,6 +140,15 @@ a:hover {
 
 .project-description h3 {
     width: 100%;
+}
+
+.project-link {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: var(--solid-bg);
 }
 
 .preview-container {
@@ -353,12 +270,6 @@ a:hover {
 
 
 /* Responsive styles */
-@media (min-width: 1600px) {
-    body {
-        font-size: 1vw;
-    }
-}
-
 @media (max-width: 800px) {
 
     .project-container {
