@@ -163,6 +163,7 @@
     object-fit: cover;
     border-radius: 0.5em;
     transition: transform 0.3s ease;
+    border: 3px solid var(--border-hover-color);
 }
 
 .preview-container img:hover {
