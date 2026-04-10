@@ -1,0 +1,14 @@
+:root {
+    --main-bg: #141110;
+    --subtle-bg: #1C1917;
+    --element-bg: #262220;
+    --element-hover-bg: #302A27;
+    --active-element-bg: #3B3330;
+    --separator-color: #493E3A;
+    --border-color: #5A4C47;
+    --border-hover-color: #6F5F58;
+    --solid-bg: #A18072;
+    --hover-solid-bg: #AE8C7E;
+    --low-contrast-text: #D4B3A5;
+    --high-contrast-text: #EDE0D9;
+}
