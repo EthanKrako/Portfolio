@@ -15,12 +15,21 @@ export default {
     "languages": "Langues",
 
     // Accessibility
+    // titles
     "send mail": "Envoyer un e-mail",
     "access github": "Mon profil GitHub",
     "linkedin profile": "Mon profil LinkedIn",
+    "see website": "Voir le site",
+    "see github": "Voir sur GitHub",
+    // alt
+    "project screenshot": "Capture d'écran du projet",
+    "fullsize project screenshot": "Capture du projet en plein écran",
+    "french flag": "Drapeau français",
+    "english flag": "Drapeau anglais",
+    "japanese flag": "Drapeau japonais",
+
 
     // Text blocks
-
     // Projets
     "pro-title-1": "Odyssea",
     "pro-desc-1": "Création d'un nouveau site web pour Odyssea, en se concentrant principalement sur l'intégration frontend. J'ai travaillé principalement sur la page d'accueil, les landing pages et les actualités. Les principaux challenges de ce projet reposaient sur l'optimisation des performances du site, l'assurance d'une parfaite réactivité sur tous les appareils, et l'intégration appropriée du système de cookies, en particulier pour le contenu vidéo.",

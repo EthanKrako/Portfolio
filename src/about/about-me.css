@@ -18,16 +18,17 @@ h1 {
 /* Languages section */
 
 .languages-container {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-auto-flow: column;
     justify-items: center;
-    gap: 2em;
+    gap: 6em;
     padding-top: 2em;
 }
 
 .language-card {
-    height: 12em;
+    height: 9em;
     width: 100%;
     perspective: 1000px;
 }
