@@ -14,6 +14,10 @@ export default {
     "about-me": "À propos de moi",
     "languages": "Langues",
 
+    // Accessibility
+    "send mail": "Envoyer un e-mail",
+    "access github": "Mon profil GitHub",
+    "linkedin profile": "Mon profil LinkedIn",
 
     // Text blocks
 

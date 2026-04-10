@@ -27,6 +27,11 @@ export async function setLanguage(lang) {
         altElement.alt = translationDictionary[key];
     });
 
+    document.querySelectorAll("[data-title]").forEach(titleElement => {
+        const key = titleElement.dataset.title;
+        titleElement.title = translationDictionary[key];
+    });
+
     document.querySelectorAll("[data-duration]").forEach(durationElement => {
         const key = durationElement.dataset.duration;
         durationElement.dataset.durationText = translationDictionary[key];
