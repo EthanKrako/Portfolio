@@ -13,6 +13,7 @@ export default {
     "my-work": "Mon travail",
     "about-me": "À propos de moi",
     "languages": "Langues",
+    "hobbies": "Centres d'intérêt",
 
     // Accessibility
     // titles
@@ -82,4 +83,14 @@ export default {
     "japanese": "Japonais",
     "japanese-level": "Conversation basique",
     "japanese-description": "N4",
+
+    // Hobbies
+    "tricking": "Tricking",
+    "motorcycles": "Moto",
+    "music": "Musique",
+    "languages": "Langues étrangères",
+    "chess": "Échecs",
+    "video-games": "Jeux vidéo",
+    "hiking-running": "Randonnée / Course à pied",
+    "climbing": "Escalade",
 }

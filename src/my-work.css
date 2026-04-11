@@ -55,10 +55,6 @@
     text-align: end;
 }
 
-.projects-container {
-    padding-bottom: 4em;
-}
-
 .tabs {
     --tab-count: 2;
 
