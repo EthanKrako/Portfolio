@@ -47,8 +47,8 @@ export default {
     "perso-title-2": "Collaborative Text Editor",
     "perso-desc-2": "A real-time collaborative text editor built with Angular and NestJS. The goal of this project was purely to play with WebSockets and real-time synchronization, using Angular's RxJS, Socket.IO and Yjs to achieve seamless collaboration, while still being able to save and load documents from the database.",
 
-    "perso-title-3": "HTTP Server",
-    "perso-desc-3": "",
+    "perso-title-3": "HTTP Server (Ongoing project)",
+    "perso-desc-3": "A minimalist HTTP server built in C, designed to explore the foundations of the HTTP protocol and network communication.",
 
     "ws-cdd-title": "Temporary contract - Web Strategies",
     "ws-cdd-desc": "Following the internship, we decided to extend our collaboration for an additional 4 months. Thanks to the experience gained, I had the opportunity to work on more complex tasks, including the direct resolution of client tickets and the deployment of new projects to production.",
