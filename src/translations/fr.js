@@ -41,14 +41,14 @@ export default {
     "pro-title-3": "Sporsora",
     "pro-desc-3": "Le but de ce projet était de migrer le site existant de Sporsora vers WordPress. J'ai travaillé à la fois sur le frontend et le backend, pour recréer une copie conforme du site précédent tout en améliorant les performances et la maintenabilité.",
 
-    "perso-title-1": "Job Application Tracker",
+    "perso-title-1": "Tracker de CV envoyés",
     "perso-desc-1": "Une application React/Express de suivi de candidatures d'emploi, pour organiser et suivre les CV envoyés à différentes entreprises. L'objectif premier de ce projet était de pouvoir jouer peu avec les tokens JWT et d'explorer plus en profondeur le fonctionnement interne de React, notamment le fonctionnement des phases de rendu et de commit.",
 
-    "perso-title-2": "Collaborative Text Editor",
+    "perso-title-2": "Éditeur de texte collaboratif",
     "perso-desc-2": "Un éditeur de texte collaboratif en temps réel construit avec Angular et NestJS. Le but de ce projet était simplement de jouer avec les WebSockets et la synchronisation en temps réel, en utilisant RxJS, Socket.IO et Yjs pour permettre une collaboration fluide, tout en étant capable de sauvegarder et charger les documents depuis la base de données.",
 
-    "perso-title-3": "Portfolio",
-    "perso-desc-3": "Le porfolio que vous consultez actuellement. J'ai voulu créer un site simple en JavaScript, HTML et CSS vanilla, pour mettre en avant mes différents projets.",
+    "perso-title-3": "Serveur HTTP (Projet en cours)",
+    "perso-desc-3": "Un serveur HTTP minimaliste construit en C, pour explorer les fondements du protocole HTTP et de la communication réseau.",
 
     "ws-cdd-title": "CDD - Web Strategies",
     "ws-cdd-desc": "Suite au stage, nous avons décidé de continuer à collaborer pour 4 mois supplémentaires. Grâce à l'expérience acquise, j'ai eu l'occasion de travailler sur des tâches plus complexes telles que la résolution directe de tickets clients ou la mise en production de nouveaux projets.",
