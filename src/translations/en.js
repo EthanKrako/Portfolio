@@ -82,7 +82,7 @@ export default {
 
     "japanese": "Japanese",
     "japanese-level": "Basic conversation",
-    "japanese-description": "N4",
+    "japanese-description": "N3",
 
     // Hobbies
     "tricking": "Tricking",
